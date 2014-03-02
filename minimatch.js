@@ -3,7 +3,7 @@
 if (module) module.exports = minimatch
 else exports.minimatch = minimatch
 
-if (!require) {
+if (!require || process.browser) {
   require = function (id) {
     switch (id) {
       case "sigmund": return function sigmund (obj) {
