@@ -1,4 +1,6 @@
-# minimatch
+# minimatchify
+
+**Adaptation of minimatch to browserify friendly form! (works in most browsers)**
 
 A minimal matching utility.
 
